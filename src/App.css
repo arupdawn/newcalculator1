@@ -1,0 +1,111 @@
+body{
+      background: linear-gradient(
+            180deg,
+            rgb(164, 210, 255),
+            rgb(154, 144, 245)
+      );
+      
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+ #calculatorBody{
+  width: 300px;
+  background: 	rgb(248, 253, 255);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgb(151, 224, 151);
+  margin-bottom: 140px;
+}
+
+.ansques{
+  width: 265px;
+  height: 80px;
+  text-align: right;
+  font-family: 'Exo';
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  background: 	rgb(248, 253, 255);
+  margin-bottom: 8px;
+}
+
+#answer{
+  font-size:35px;
+  color: rgb(71, 156, 241);
+}
+
+#question{
+  margin-bottom: 7px;
+  font-size: 22px;
+  color: rgb(71, 156, 241);
+}
+
+#toggle{
+  color: rgb(71, 156, 241);
+}
+#AC {
+   background:white;
+}
+#equals{
+  width : 120px;
+  background: rgb(129, 190, 250);
+  border-width: 1px;
+  color : white;
+  font-size: 25px;
+  box-shadow: -1px 5px 5px rgb(172, 205, 238);
+  line-height: 24px;
+}
+
+.operator{
+  background: rgb(129, 190, 250);
+  border-width: 1px;
+  color : white;
+  font-size: 25px;
+  box-shadow: -1px 5px 5px rgb(172, 205, 238);
+  line-height: 12px;
+}
+
+button{
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  padding: 1px;
+  font-size: 20px;
+  margin: 10px; 
+  font-family: 'Exo';
+  border: none;
+  outline: none;
+  box-shadow: -3px 10px 10px rgb(215, 230, 230);
+  color: rgb(71, 156, 241);
+  background:rgba(255, 255, 255, 0.897);
+}
